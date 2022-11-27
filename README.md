@@ -64,12 +64,16 @@ A biblioteca "Wifi.h" é responsável por conectar o ESP32 à rede Wi-Fi. Ela ut
 <br><br>
 
 <br><br>
+
 ![ConexãoWifi](https://user-images.githubusercontent.com/68467958/204155181-d6ccb203-887a-40fa-a185-2d5e5bb27d0a.png)
+
 <br><br>
 
 Abaixo é definido uma lista com todos os dispositivos BLEs que devem ser reconhecido e monitorados.
 <br><br>
-![listadress](https://user-images.githubusercontent.com/68467958/204156005-1da978d7-c0dc-4af6-ad1e-5529654dd989.png)
+
+![listadress](https://user-images.githubusercontent.com/68467958/204156345-729a05ce-6abc-42bd-a1c9-0a7d564dc90b.png)
+
 <br><br>
 
 
