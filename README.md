@@ -3,6 +3,15 @@
 <br>
 <h2 id="Introdução">  Introdução </h2>
 
+Monitorar escolas pode se tornar uma tarefa complexa quando trata-se de uma possível fuga das aulas por parte dos alunos. Isso pode acontecer por vários fatores e ocasionam diversos problemas no ensino escolar do Brasil. Um dos problemas que podem ser ocasionados é a super lotação na sala de aula ou de muitas matrículas cadastradas, mas só uma pequena parte da turma aparece na sala de aula, retirando o direito de quem realemente merecia estar estudando. 
+
+Outro fator determinante para o monitoramento é o acompanhamento de presença por meio do check feito em sala de aula, pois é normal que o aluno por padrão precise pelo menos ter quantidade de presença maior ou igual a 70% de presença na sala de aula. Com isso, muitas vezes a falta ocorre com o aluno estando dentro da escola, mas fora da sala de aula e nenhuma entidade associada a escola tem conhecimento sobre esse fator.
+
+Uma alternativa para diminuir ou até mesmo cessar esse problema, seria contratar pessoas auxiliares para vigiar pátios, corredores, banheiros e mesmo assim ainda pode existir uma margem de erro a depender do tamanho da infraestrutura da escola.
+
+Portanto, a melhor solução seria aplicada por meio de tecnologias conhecidas como Beacons que estariam fixos em pontos importantes da escola e distribuidos de maneira que o seu sinal fosse captado em cada lugar da escola. Essa proposta será desenvolvida melhor nas próximas seções com maiores detalhes.
+
+
 
 <br><br>
 <h2 id="#ObjetivoGeral"> Objetivo Geral</h2>
