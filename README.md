@@ -43,7 +43,7 @@ Até o momento, não existe uma solução se quer parecida com projeto Eugene. P
 A solução é composta por cinco módulos, são eles: O Beacon, o dispositivo que será conectado ao Beacon, o ponto de acesso, a aplicação desktop o dispositivo onde será armazenada a aplicação para realizar o monitoramento. O Beacon realiza a leitura dos dispositivos e logo em seguida, já associa o id de cada dispositivo a um nome de aluno. Dessa forma, ele envia dados contendo a localidade de cada aluno para a aplicação por meio da rede local, onde estará armazenado o desktop para monitoramento.
 <br><br>
 
-![Arquiteture](https://user-images.githubusercontent.com/68467958/204149870-6d649449-7b20-447b-a373-e73b9765415b.png)
+![Arquiteture](https://user-images.githubusercontent.com/68467958/204153992-d3c1ef9e-ccdd-483f-8a57-3fed736cd832.png)
 
 
 
@@ -52,7 +52,48 @@ O projeto foi desenvolvido em distribuição Windows 10 PRO. O código no microc
 
 
 <br><br>
-<h2 id="#MateriaisMetodos"> Materiais e Metodos</h2>
+<h2 id="#MateriaisMetodos">3.2 Materiais e Metodos</h2>
+<h3 id="#Módulo de hardware">3.2.1 O Módulo de hardware</h3>
+Conforme visto nas seções anteriores, o hardware adotado para fazer a leitura de dispositivos BLE foi o ESP32, com isso, está evidenciado na imagem abaixo as bibliotecas utilizadas, como: "BLEDevice.h","BLEUtils.h", "BLEScan.h", "BLEAdvertisedDevice.h", "BluetoothSerial.h" e "Wifi.h".
+<br><br>
+![Bibliotecas](https://user-images.githubusercontent.com/68467958/204154985-8d6c255c-c4c9-4936-bab3-44292bd64b64.png)
+<br><br>
+
+<br><br>
+A biblioteca "Wifi.h" é responsável por conectar o ESP32 à rede Wi-Fi. Ela utiliza duas variáveis necessárias para conexão, o ssid (nome da rede) e o password da rede (senha da rede).
+<br><br>
+
+<br><br>
+![ConexãoWifi](https://user-images.githubusercontent.com/68467958/204155181-d6ccb203-887a-40fa-a185-2d5e5bb27d0a.png)
+<br><br>
+
+Abaixo é definido uma lista com todos os dispositivos BLEs que devem ser reconhecido e monitorados.
+<br><br>
+![listadress](https://user-images.githubusercontent.com/68467958/204156005-1da978d7-c0dc-4af6-ad1e-5529654dd989.png)
+<br><br>
+
+
+<br><br>
+Já ná imagem abaixo, é possível escanear endereços bluetooths.
+<br><br>
+
+<br><br>
+![Scanning](https://user-images.githubusercontent.com/68467958/204155711-6afd7f19-3bbe-4952-84e1-1736807edff0.png)
+<br><br>
+
+Por último, após validar se algum dos endereços que estava na lista foi reconhecido, então o led ficará aceso.
+<br><br>
+![Ifscanning](https://user-images.githubusercontent.com/68467958/204155971-5f9f59cc-a838-445a-be3a-ff7f2b76fe3f.png)
+<br><br>
+
+<br><br>
+<h2 id="#Testes">3.3. Testes</h2>
+<br><br>
+
+
+<br><br>
+<h2 id="#Conclusao">4. Conclusões</h2>
+<br><br>
 
 
 <table border="1" >
