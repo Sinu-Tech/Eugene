@@ -41,14 +41,13 @@ Até o momento, não existe uma solução se quer parecida o projeto. Pois não 
 <br><br>
 <h3 id="#Arquitetura">3.1 Arquitetura da solução</h3>
 A solução é composta por cinco módulos, são eles: O Beacon, o dispositivo que será conectado ao Beacon, o ponto de acesso, a aplicação desktop o dispositivo onde será armazenada a aplicação para realizar o monitoramento. O Beacon realiza a leitura dos dispositivos e logo em seguida, já associa o id de cada dispositivo a um nome de aluno. Dessa forma, ele envia dados contendo a localidade de cada aluno para a aplicação por meio da rede local, onde estará armazenado o desktop para monitoramento.
-<br>
+<br><br>
 
-![Arquitetura](https://user-images.githubusercontent.com/68467958/204149145-50ca6a79-6814-4bd8-bf14-95f3bc1dcdf9.png)
-
-
+![Arquiteture](https://user-images.githubusercontent.com/68467958/204149870-6d649449-7b20-447b-a373-e73b9765415b.png)
 
 
 
+O projeto foi desenvolvido em distribuição Windows 10 PRO. O código no microcontrolador foi escrito na linguagem C/C++ por meio do Arduino IDE, sendo que as blibliotecas utilizadas realizam a comunicação do ESP32 através de WI-Fi, a leitura e conexão com dispositivos BLE. 
 
 
 
