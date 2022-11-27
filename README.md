@@ -56,8 +56,11 @@ O projeto foi desenvolvido em distribuição Windows 10 PRO. O código no microc
 <h3 id="#Módulo de hardware">3.2.1 O Módulo de hardware</h3>
 Conforme visto nas seções anteriores, o hardware adotado para fazer a leitura de dispositivos BLE foi o ESP32, com isso, está evidenciado na imagem abaixo as bibliotecas utilizadas, como: "BLEDevice.h","BLEUtils.h", "BLEScan.h", "BLEAdvertisedDevice.h", "BluetoothSerial.h" e "Wifi.h".
 <br><br>
-![Bibliotecas](https://user-images.githubusercontent.com/68467958/204154985-8d6c255c-c4c9-4936-bab3-44292bd64b64.png)
+
+![Bibliotecas](https://user-images.githubusercontent.com/68467958/204156469-40502146-18f3-4b43-bb5b-ac0b0e367592.png)
+
 <br><br>
+
 
 <br><br>
 A biblioteca "Wifi.h" é responsável por conectar o ESP32 à rede Wi-Fi. Ela utiliza duas variáveis necessárias para conexão, o ssid (nome da rede) e o password da rede (senha da rede).
