@@ -99,10 +99,36 @@ Por último, após validar se algum dos endereços que estava na lista foi recon
 
 
 <br><br>
-<h2 id="#Conclusao">4. Conclusões</h2>
+<h2 id="#Conclusao">4. Conclusões e trabalhos futuros</h2>
 <br><br>
 
+Com base na problemática sobre os alunos negligenciarem aula, o presente trabalho se propôs a desenvolver uma solução para ambientes escolares. De acordo com as seções anteriores, o aluno será monitorado de forma que sua localização seja mostrada, a fim de evitar furos de aula e aplicar as medidas cabíveis pela escola.
+<br>
+Para atingir o objetivo de monitoramento, foi utilizado alguns smarts watchs para validar os endereços bluetooths presentes na lista. Com isso, foi possível ver que os endereços estavam de fato sendo encontrados e com isso para questão de debug, os RSSIs eram printados na tela.
+<br>
+Para simular testes, foi colocado na lista apenas um endereço bluetooth de um smart watch e ao realizar a verificação, foi encontrado diversos endereços, mas só printado um que estava evidenciado na lista definida.
+<br>
+As perspectivas de trabalhos futuros incluem criar uma interface gráfica para melhor visualizar os dispositivos BLEs encontrados e construir um "ambiente" com base na planta de uma escola. Com isso, seria possível simular colocando pelo menos dois Esps32 em cantos diferentes para verificar melhor a distância e validar a precisão das coordenadas enviadas pelos Esps.
+<br><br>
 
+<br><br>
+<h2 id="#Referencias">Referências</h2>
+<br><br>
+
+Tutorial - Enviando um JSON com ESP32. 2020.https://pettec.unifei.edu.br/wp-content/uploads/2021/01/Tutorial-Enviando-um-JSON-com-ESP32.pdf. Online; Acessado em 26 de Novembro de 2022.
+
+BLE based Proximity Control using ESP32 – Detect Presence of BLE Devices.2020. https://circuitdigest.com/microcontroller-projects/ble-based-proximity-control-using-esp32. Online; Acessado em 02 de Novembro de 2022.
+
+Beacon Technology – Como eles funcionam e como podem ser usados.2020.https://www.mokosmart.com/pt/beacon-technology/. Online; Acessado em 07 de Setembro de 2022.
+
+ESP32 WIFI: COMUNICAÇÃO COM A INTERNET.2019.https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/. Online; Acessado em 17 de Novembro de 2022.
+
+Como configurar um servidor de testes local.2022.https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/set_up_a_local_testing_server. Online; Acessado em 26 de Novembro de 2022.
+
+Localização Usando Beacons em Ambientes Internos para Monitoramento Remoto de Pacientes.2022.https://docplayer.com.br/108508909-Localizacao-usando-beacons-em-ambientes-internos-para-monitoramento-remoto-de-pacientes.html. Online; Acessado em 07 de Setembro de 2022.
+
+
+<br><br>
 <table border="1" >
     <tr>
         <th>Material</th>
