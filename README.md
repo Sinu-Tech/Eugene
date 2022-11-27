@@ -40,6 +40,10 @@ Até o momento, não existe uma solução se quer parecida o projeto. Pois não 
 
 <br><br>
 <h3 id="#Arquitetura">3.1 Arquitetura da solução</h3>
+A solução é composta por cinco módulos, são eles: O Beacon, o dispositivo que será conectado ao Beacon, o ponto de acesso, a aplicação desktop o dispositivo onde será armazenada a aplicação para realizar o monitoramento. O Beacon realiza a leitura dos dispositivos e logo em seguida, já associa o id de cada dispositivo a um nome de aluno. Dessa forma, ele envia dados contendo a localidade de cada aluno para a aplicação por meio da rede local, onde estará armazenado o desktop para monitoramento.
+![image](https://user-images.githubusercontent.com/68467958/204146470-382509d3-093c-47b1-bf9d-06d2b7b45014.png)
+
+
 
 
 
