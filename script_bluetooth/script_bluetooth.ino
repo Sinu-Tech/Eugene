@@ -2,11 +2,12 @@
 #include <BLEUtils.h>
 #include <BLEScan.h>
 #include <BLEAdvertisedDevice.h>
-String knownBLEAddresses[] = {"6E:bc:55:18:cf:7b", "53:3c:cb:56:36:02", "40:99:4b:75:7d:2f", "5c:5b:68:6f:34:96"};
+String knownBLEAddresses[] = {"8c:d9:d6:4b:4d:41" ,"aa:bc:cc:dd:ee:ee", "54:2c:7b:87:71:a2","A8:16:D0:7E:97:D0","6e:ee:ee:ac:39:48", "E0:5F:5E:ED:7F:8D", "49:f0:cc:dd:e6:9c", "e0:5f:5e:ed:7f:8d", "45:d5:89:cd:3d:19"};
 int RSSI_THRESHOLD = -55;
 bool device_found;
 int scanTime = 5; //In seconds
 int LED_BUILTIN = LOW;
+
 BLEScan* pBLEScan;
 class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
     void onResult(BLEAdvertisedDevice advertisedDevice) {
@@ -28,18 +29,18 @@ class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
         else
           device_found = false;
       }
-      Serial.printf("Advertised Device: %s \n", advertisedDevice.toString().c_str());
+      //Serial.printf("Advertised Device: %s \n", advertisedDevice.toString().c_str());
     }
 };
 void setup() {
-  Serial.begin(115200); //Enable UART on ESP32
+  Serial.begin(115200); //Enable UART on ESP32 AQUI DEFINE A BANDA DO MONITOR SERIAL, TE QUE TROCAR AQUI
   Serial.println("Scanning..."); // Print Scanning
   pinMode(LED_BUILTIN, OUTPUT); //make BUILTIN_LED pin as output
   BLEDevice::init("");
   pBLEScan = BLEDevice::getScan(); //create new scan
   pBLEScan->setAdvertisedDeviceCallbacks(new MyAdvertisedDeviceCallbacks()); //Init Callback Function
   pBLEScan->setActiveScan(true); //active scan uses more power, but get results faster
-  pBLEScan->setInterval(100); // set Scan interval
+  pBLEScan->setInterval(1000); // set Scan interval
   pBLEScan->setWindow(99);  // less or equal setInterval value
 }
 void loop() {
@@ -52,7 +53,7 @@ void loop() {
     Serial.print("RSSI: ");
     Serial.println(rssi);
     if (rssi > RSSI_THRESHOLD && device_found == true)
-      digitalWrite(LED_BUILTIN, HIGH);
+      digitalWrite(LED_BUILTIN, HIGH); // TODO HTTP REQUEST
     else
       digitalWrite(LED_BUILTIN, LOW);
   }
