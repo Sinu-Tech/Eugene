@@ -115,7 +115,18 @@ As perspectivas de trabalhos futuros incluem criar uma interface gráfica para m
 <h2 id="#Referencias">Referências</h2>
 <br><br>
 
+Tutorial - Enviando um JSON com ESP32. 2020.https://pettec.unifei.edu.br/wp-content/uploads/2021/01/Tutorial-Enviando-um-JSON-com-ESP32.pdf. Online; Acessado em 26 de Novembro de 2022.
 
+BLE based Proximity Control using ESP32 – Detect Presence of BLE Devices.2020. https://circuitdigest.com/microcontroller-projects/ble-based-proximity-control-using-esp32. Online; Acessado em 02 de Novembro de 2022.
+
+Beacon Technology – Como eles funcionam e como podem ser usados.2020.https://www.mokosmart.com/pt/beacon-technology/. Acessado em 07 de Setembro de 2022.
+
+ESP32 WIFI: COMUNICAÇÃO COM A INTERNET.2019.https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/. Acessado em 17 de Novembro de 2022.
+
+Como configurar um servidor de testes local.2022.https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/set_up_a_local_testing_server. Acessado em 26 de Novembro de 2022.
+
+
+<br><br>
 <table border="1" >
     <tr>
         <th>Material</th>
