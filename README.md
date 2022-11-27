@@ -119,11 +119,13 @@ Tutorial - Enviando um JSON com ESP32. 2020.https://pettec.unifei.edu.br/wp-cont
 
 BLE based Proximity Control using ESP32 – Detect Presence of BLE Devices.2020. https://circuitdigest.com/microcontroller-projects/ble-based-proximity-control-using-esp32. Online; Acessado em 02 de Novembro de 2022.
 
-Beacon Technology – Como eles funcionam e como podem ser usados.2020.https://www.mokosmart.com/pt/beacon-technology/. Acessado em 07 de Setembro de 2022.
+Beacon Technology – Como eles funcionam e como podem ser usados.2020.https://www.mokosmart.com/pt/beacon-technology/. Online; Acessado em 07 de Setembro de 2022.
 
-ESP32 WIFI: COMUNICAÇÃO COM A INTERNET.2019.https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/. Acessado em 17 de Novembro de 2022.
+ESP32 WIFI: COMUNICAÇÃO COM A INTERNET.2019.https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/. Online; Acessado em 17 de Novembro de 2022.
 
-Como configurar um servidor de testes local.2022.https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/set_up_a_local_testing_server. Acessado em 26 de Novembro de 2022.
+Como configurar um servidor de testes local.2022.https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/set_up_a_local_testing_server. Online; Acessado em 26 de Novembro de 2022.
+
+Localização Usando Beacons em Ambientes Internos para Monitoramento Remoto de Pacientes.2022.https://docplayer.com.br/108508909-Localizacao-usando-beacons-em-ambientes-internos-para-monitoramento-remoto-de-pacientes.html. Online; Acessado em 07 de Setembro de 2022.
 
 
 <br><br>
