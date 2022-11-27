@@ -31,7 +31,7 @@ Com o Eugene o objetivo principal é:
 <br><br>
 <h2 id="#Trabalhos relacionados">2. Trabalhos Relacionados</h2>
 
-Até o momento, não existe uma solução se quer parecida o projeto. Pois não existem projetos referentes a posição do aluno dentro da escola.  
+Até o momento, não existe uma solução se quer parecida com projeto Eugene. Pois não existem projetos referentes a posição do aluno dentro de uma escola.  
 
 
 <br><br>
@@ -47,7 +47,7 @@ A solução é composta por cinco módulos, são eles: O Beacon, o dispositivo q
 
 
 
-O projeto foi desenvolvido em distribuição Windows 10 PRO. O código no microcontrolador foi escrito na linguagem C/C++ por meio do Arduino IDE, sendo que as blibliotecas utilizadas realizam a comunicação do ESP32 através de WI-Fi, a leitura e conexão com dispositivos BLE. 
+O projeto foi desenvolvido em distribuição Windows 10 PRO. O código no microcontrolador foi escrito na linguagem C/C++ por meio do Arduino IDE, sendo que as blibliotecas utilizadas realizam a comunicação do ESP32 através de Wi-Fi e a leitura e conexão com dispositivos BLE. 
 
 
 
