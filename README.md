@@ -99,7 +99,20 @@ Por último, após validar se algum dos endereços que estava na lista foi recon
 
 
 <br><br>
-<h2 id="#Conclusao">4. Conclusões</h2>
+<h2 id="#Conclusao">4. Conclusões e trabalhos futuros</h2>
+<br><br>
+
+Com base na problemática sobre os alunos negligenciarem aula, o presente trabalho se propôs a desenvolver uma solução para ambientes escolares. De acordo com as seções anteriores, o aluno será monitorado de forma que sua localização seja mostrada, a fim de evitar furos de aula e aplicar as medidas cabíveis pela escola.
+<br>
+Para atingir o objetivo de monitoramento, foi utilizado alguns smarts watchs para validar os endereços bluetooths presentes na lista. Com isso, foi possível ver que os endereços estavam de fato sendo encontrados e com isso para questão de debug, os RSSIs eram printados na tela.
+<br>
+Para simular testes, foi colocado na lista apenas um endereço bluetooth de um smart watch e ao realizar a verificação, foi encontrado diversos endereços, mas só printado um que estava evidenciado na lista definida.
+<br>
+As perspectivas de trabalhos futuros incluem criar uma interface gráfica para melhor visualizar os dispositivos BLEs encontrados e construir um "ambiente" com base na planta de uma escola. Com isso, seria possível simular colocando pelo menos dois Esps32 em cantos diferentes para verificar melhor a distância e validar a precisão das coordenadas enviadas pelos Esps.
+<br><br>
+
+<br><br>
+<h2 id="#Referencias">Referências</h2>
 <br><br>
 
 
