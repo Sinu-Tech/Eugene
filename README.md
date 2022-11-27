@@ -1,7 +1,7 @@
 #  Eugene - Sistema de identificação e segurança de estudantes
 
 <br>
-<h2 id="Introdução">  Introdução </h2>
+<h2 id="#Introdução">1. Introdução</h2>
 
 Monitorar escolas pode se tornar uma tarefa complexa quando trata-se de uma possível fuga das aulas por parte dos alunos. Isso pode acontecer por vários fatores e ocasionam diversos problemas no ensino escolar do Brasil. Um dos problemas que podem ser ocasionados é a super lotação na sala de aula ou de muitas matrículas cadastradas, mas só uma pequena parte da turma aparece na sala de aula, retirando o direito de quem realemente merecia estar estudando. 
 
@@ -27,12 +27,20 @@ Com o Eugene o objetivo principal é:
 - Identificar o motivo da baixa presença nas aulas.
 - Garantir a segurança dos alunos.
 
+
 <br><br>
-<h2 id="#SolucaoProposta"> Solucao Proposta</h2>
+<h2 id="#Trabalhos relacionados">2. Trabalhos Relacionados</h2>
+
+Até o momento, não existe uma solução se quer parecida o projeto. Pois não existem projetos referentes a posição do aluno dentro da escola.  
 
 
 <br><br>
-<h2 id="#Arquitetura"> Arquitetura da solução</h2>
+<h2 id="#SolucaoProposta">3. Solucao Proposta</h2>
+
+
+<br><br>
+<h3 id="#Arquitetura">3.1 Arquitetura da solução</h3>
+
 
 
 <br><br>
