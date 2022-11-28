@@ -1,38 +1,32 @@
 #  Eugene - Sistema de identificação e segurança de estudantes
 
 
+## Sumário
 
-<h2> Sumário </h2>
 <div>
   <img align="right" width="200" src="https://www.pop-se.rnp.br/wp-content/uploads/2018/12/ufs_principal_positiva.png" alt="Logo UFS">
-  <a href="#Introducao"> 1. Introdução </a>
-  <br>
-  <a href="#ObjetivoGeral"> 1.1 Objetivo Geral </a>
-  <br>
-  <a href="#ObjetivoEspecifico"> 1.2 Objetivo Especifico</a> 
-  <br>
-  <a href="#Trabalhos"> 2. Trabalhos Relacionados</a>
-  <br>
-  <a href="#SolucaoProposta"> 3. Solucao Proposta</a>
-  <br>
-  <a href="#Arquitetura"> 3.1 Arquitetura da solução</a>
-  <br>
-  <a href="#MateriaisMetodos"> 3.2 Materiais e Metodos</a>
-  <br>
-  <a href="#Módulo de hardware"> 3.2.1 O Módulo de hardware</a>
-  <br>
-  <a href="#Testes"> 3.3. Testes</a>
-  <br>
-  <a href="#Conclusao">4. Conclusões e trabalhos futuros</a>
-  <br>
-  <a id="#Referencias">5.Referências</a>
-  <br>
-  <a href="#Colaboradores"> 6. Colaboradores</a>
-  <br>
-  
 </div>
 
+-   [1. Introdução](#1-introdução)
+    -   [1.1 Objetivo Geral](#-11-objetivo-geral)
+    -   [1.2 Objetivo Especifico](#-12-objetivo-especifico)
+-   [2. Trabalhos Relacionados](#2-trabalhos-relacionados)
+-   [3. Solucao Proposta](#3-solucao-proposta)
+    -   [3.1 Arquitetura da solução](#31-arquitetura-da-solução)
+    -   [3.2 Materiais e Metodos](#32-materiais-e-metodos)
+        -   [3.2.1 O Módulo de hardware](#321-o-módulo-de-hardware)
+    -   [3.3. Testes](#33-testes)
+-   [4. Conclusões e trabalhos futuros](#4-conclusões-e-trabalhos-futuros)
+-   [5.Referências](#5-referências)
+    -   [5.1. Equipamentos](#51-equipamentos)
+-   [6. Colaboradores](#6-colaboradores)
+
+
+
 <br>
+
+# Introdução
+
 <h2 id="#Introducao">1. Introdução</h2>
 
 Monitorar escolas pode se tornar uma tarefa complexa quando trata-se de uma possível fuga das aulas por parte dos alunos. Isso pode acontecer por vários fatores e ocasionam diversos problemas no ensino escolar do Brasil. Um dos problemas que podem ser ocasionados é a super lotação na sala de aula ou de muitas matrículas cadastradas, mas só uma pequena parte da turma aparece na sala de aula, retirando o direito de quem realemente merecia estar estudando. 
@@ -77,7 +71,6 @@ O projeto foi desenvolvido em distribuição Windows 10 PRO. O código no microc
 
 <br>
 <h3 id="#MateriaisMetodos">3.2 Materiais e Metodos</h2>
-<br>
 <h4 id="#Módulo de hardware">3.2.1 O Módulo de hardware</h3>
 Conforme visto nas seções anteriores, o hardware adotado para fazer a leitura de dispositivos BLE foi o ESP32, com isso, está evidenciado na imagem abaixo as bibliotecas utilizadas, como: "BLEDevice.h","BLEUtils.h", "BLEScan.h", "BLEAdvertisedDevice.h", "BluetoothSerial.h" e "Wifi.h".
 <br><br>
@@ -130,10 +123,8 @@ Já na segunda imagem, é possivel ver que foi reconhecido dois aparelhos com os
 <br><br>
 
 
-<br><br>
 <h2 id="#Conclusao">4. Conclusões e trabalhos futuros</h2>
-<br><br>
-
+<br>
 Com base na problemática sobre os alunos negligenciarem aula, o presente trabalho se propôs a desenvolver uma solução para ambientes escolares. De acordo com as seções anteriores, o aluno será monitorado de forma que sua localização seja mostrada, a fim de evitar furos de aula e aplicar as medidas cabíveis pela escola.
 <br>
 Para atingir o objetivo de monitoramento, foi utilizado alguns smarts watchs para validar os endereços bluetooths presentes na lista. Com isso, foi possível ver que os endereços estavam de fato sendo encontrados e com isso para questão de debug, os RSSIs eram printados na tela.
@@ -143,7 +134,6 @@ Para simular testes, foi colocado na lista apenas um endereço bluetooth de um s
 As perspectivas de trabalhos futuros incluem criar uma interface gráfica para melhor visualizar os dispositivos BLEs encontrados e construir um "ambiente" com base na planta de uma escola. Com isso, seria possível simular colocando pelo menos dois Esps32 em cantos diferentes para verificar melhor a distância e validar a precisão das coordenadas enviadas pelos Esps.
 <br><br>
 
-<br><br>
 <h2 id="#Referencias">5. Referências</h2>
 <br>
 
