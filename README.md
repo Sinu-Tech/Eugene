@@ -96,7 +96,17 @@ Por último, após validar se algum dos endereços que estava na lista foi recon
 <br><br>
 <h2 id="#Testes">3.3. Testes</h2>
 <br><br>
+
+
+Na imagem abaixo é possível ver que o microcontrolador está buscando dispositivos compatives com BLE. Ele fará uma listagem de todos BLEs que conseguir encontrar durante a verificação.
+<br><br>
 ![teste1](https://user-images.githubusercontent.com/68467958/204180063-782a336d-f3f6-41d1-87ab-f4cb6aa00af7.png)
+<br><br>
+
+Já na segunda imagem, é possivel ver que foi reconhecido dois aparelhos com os seguintes endereços bluetooth: "d4:55:bb:5b:16:a6" e "f0:a5:93:7c:ec:89". Esses endereços correspondem a dois celulares que estavam ligados próximos do esp32. Com isso, a leitura já está sendo realizada corretamente. 
+<br><br>
+![Teste2](https://user-images.githubusercontent.com/68467958/204191370-608a5707-ec61-498e-9ba3-bf9125238b9c.png)
+<br><br>
 
 
 <br><br>
