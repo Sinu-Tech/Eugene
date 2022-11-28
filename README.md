@@ -19,8 +19,6 @@
     -   [5.1. Equipamentos](#51-equipamentos)
 -   [6. Colaboradores](#6-colaboradores)
 
-
-
 <br>
 
 # Introdução
@@ -106,6 +104,7 @@ Por último [FIGURA 6], após validar se algum dos endereços que estava na list
 <br>
 Na imagem abaixo é possível ver que o microcontrolador está buscando dispositivos compatives com BLE. Ele fará uma listagem de todos BLEs que conseguir encontrar durante a verificação.
 <br>
+
 ![teste1](https://user-images.githubusercontent.com/68467958/204180063-782a336d-f3f6-41d1-87ab-f4cb6aa00af7.png)[FIGURA 7]
 <br><br>
 
@@ -163,17 +162,17 @@ As perspectivas de trabalhos futuros incluem criar uma interface gráfica para m
     <tr>
         <td>Led</td>
         <td><img src="https://cdn.discordapp.com/attachments/1036750972598374460/1045878510243303434/unknown.png" alt="Led"/></td>
-        <td>Led difuso é um led onde o encapsulamento plástico é fosco, assim vc consegue visualizar ele facilmente na liz do dia. geralmente é utilizado apenas para vc saber que algo está ligado e tal. Os outros tipos são "cristalinos", onde a luz é direcionada pra frente.</td>
+        <td>Led difuso é um led onde o encapsulamento plástico é fosco, assim vc consegue visualizar ele facilmente na liz do dia. Os LEDs (Light Emitting Diode) são diodos com capacidade de emitir luz quando polarizados diretamente. Geralmente é utilizado apenas para vc saber que algo está ligado. É necessário observar a corrente e a tensão direta do LED na hora de utilizá-lo no circuito, sendo indicado uso de resistores para limitar a corrente.</td>
     </tr>
     <tr>
-        <td>Resistencia</td>
-        <td><img src="https://cdn.discordapp.com/attachments/1036750972598374460/1045878818440740904/unknown.png" alt="Resistencia"/></td>
-        <td>A resistência elétrica é definida como a capacidade que um corpo tem de opor-se à passagem da corrente elétrica. A unidade de medida da resistência no SI é o Ohm (Ω), em homenagem ao físico alemão George Simon Ohm, e representa a razão volt/Ampére. Quando um condutor é submetido a uma diferença de potencial, ele passa a ser percorrido por uma corrente elétrica, que é constituída pelo movimento de elétrons livres no interior do condutor. Quando esses elétrons livres entram em movimento, começam a colidir entre si e com os átomos do condutor. Quanto maior o número de colisões, maior a dificuldade encontrada pela corrente elétrica em “atravessar” o condutor. Essa dificuldade de movimento das cargas é que caracteriza a resistência elétrica. A resistência elétrica varia conforme o comprimento, a largura e a natureza do material do condutor, além da temperatura a que ele é submetido.</td>
+        <td>Resistores</td>
+        <td><img src="https://cdn.discordapp.com/attachments/1036750972598374460/1045878818440740904/unknown.png" alt="Resistor"/></td>
+        <td>Um resistor ou uma resistência é um dispositivo elétrico muito utilizado em eletrônica, ora com a finalidade de transformar energia elétrica em energia térmica por meio do efeito joule, ora com a finalidade de limitar a corrente elétrica em um circuito.</td>
     </tr>
     <tr>
         <td>Protoboard</td>
         <td><img src="https://cdn.discordapp.com/attachments/1036750972598374460/1045879184087593030/unknown.png" alt="Protoboard" /></td>
-        <td>Protoboard ou matriz de contato é uma placa com diversos furos e conexões condutoras verticais e horizontais para a montagem de circuitos elétricos experimentais. Seu uso tem a vantagem de dispensar a soldagem. As placas variam entre 830 e 6000 furos. Uma protoboard possui orifícios dispostos em colunas e linhas.
+        <td>Protoboard ou matriz de contato é uma placa de base plástica com diversos orifícios e conexões condutoras verticais e horizontais para a montagem de circuitos elétricos experimentais. Utilizada para fazer montagens provisórias, teste de projetos, além de inúmeras outras aplicações. 
         </td>
     </tr>
         <tr>
