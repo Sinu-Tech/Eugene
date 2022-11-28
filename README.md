@@ -1,11 +1,9 @@
 #  Eugene - Sistema de identificação e segurança de estudantes
 
-
 ## Sumário
 
-<div>
-  <img align="right" width="200" src="https://www.pop-se.rnp.br/wp-content/uploads/2018/12/ufs_principal_positiva.png" alt="Logo UFS">
-</div>
+<img align="right" width="250" src="https://www.pop-se.rnp.br/wp-content/uploads/2018/12/ufs_principal_positiva.png" alt="Logo UFS">
+
 
 -   [1. Introdução](#1-introdução)
     -   [1.1 Objetivo Geral](#-11-objetivo-geral)
@@ -57,8 +55,6 @@ Até o momento, não existe uma solução se quer parecida com projeto Eugene. P
 
 <br>
 <h2 id="#SolucaoProposta">3. Solucao Proposta</h2>
-
-<br>
 <h3 id="#Arquitetura">3.1 Arquitetura da solução</h3>
 A solução é composta por cinco módulos, são eles: O Beacon, o dispositivo que será conectado ao Beacon, o ponto de acesso, a aplicação desktop o dispositivo onde será armazenada a aplicação para realizar o monitoramento. O Beacon realiza a leitura dos dispositivos e logo em seguida, já associa o id de cada dispositivo a um nome de aluno. Dessa forma, ele envia dados contendo a localidade de cada aluno para a aplicação por meio da rede local, onde estará armazenado o desktop para monitoramento.
 <br>
@@ -85,35 +81,31 @@ A biblioteca "Wifi.h" é responsável por conectar o ESP32 à rede Wi-Fi. Ela ut
 
 ![ConexãoWifi](https://user-images.githubusercontent.com/68467958/204155181-d6ccb203-887a-40fa-a185-2d5e5bb27d0a.png)[FIGURA 3]
 
-<br><br>
+<br>
 
 Na _FIGURA 4_ é definido uma lista com todos os dispositivos BLEs que devem ser reconhecido e monitorados.
-<br><br>
+<br>
 
 ![Listadress](https://user-images.githubusercontent.com/68467958/204156345-729a05ce-6abc-42bd-a1c9-0a7d564dc90b.png)[FIGURA 4]
 
-
-<br><br>
+<br>
 Já ná imagem abaixo [FIGURA 5], é possível escanear endereços bluetooths.
 
 <br>
 
 ![Scanning](https://user-images.githubusercontent.com/68467958/204155711-6afd7f19-3bbe-4952-84e1-1736807edff0.png)[FIGURA 5]
-<br><br>
+<br>
 
 Por último [FIGURA 6], após validar se algum dos endereços que estava na lista foi reconhecido, então o led ficará aceso.
-<br><br>
+<br>
 
 ![Ifscanning](https://user-images.githubusercontent.com/68467958/204155971-5f9f59cc-a838-445a-be3a-ff7f2b76fe3f.png)[FIGURA 6]
-<br><br>
 
-<br><br>
+<br>
 <h2 id="#Testes">3.3. Testes</h2>
-<br><br>
-
-
+<br>
 Na imagem abaixo é possível ver que o microcontrolador está buscando dispositivos compatives com BLE. Ele fará uma listagem de todos BLEs que conseguir encontrar durante a verificação.
-<br><br>
+<br>
 ![teste1](https://user-images.githubusercontent.com/68467958/204180063-782a336d-f3f6-41d1-87ab-f4cb6aa00af7.png)[FIGURA 7]
 <br><br>
 
@@ -124,13 +116,13 @@ Já na segunda imagem, é possivel ver que foi reconhecido dois aparelhos com os
 
 
 <h2 id="#Conclusao">4. Conclusões e trabalhos futuros</h2>
-<br>
+<br><br>
 Com base na problemática sobre os alunos negligenciarem aula, o presente trabalho se propôs a desenvolver uma solução para ambientes escolares. De acordo com as seções anteriores, o aluno será monitorado de forma que sua localização seja mostrada, a fim de evitar furos de aula e aplicar as medidas cabíveis pela escola.
-<br>
+<br><br>
 Para atingir o objetivo de monitoramento, foi utilizado alguns smarts watchs para validar os endereços bluetooths presentes na lista. Com isso, foi possível ver que os endereços estavam de fato sendo encontrados e com isso para questão de debug, os RSSIs eram printados na tela.
-<br>
+<br><br>
 Para simular testes, foi colocado na lista apenas um endereço bluetooth de um smart watch e ao realizar a verificação, foi encontrado diversos endereços, mas só printado um que estava evidenciado na lista definida.
-<br>
+<br><br>
 As perspectivas de trabalhos futuros incluem criar uma interface gráfica para melhor visualizar os dispositivos BLEs encontrados e construir um "ambiente" com base na planta de uma escola. Com isso, seria possível simular colocando pelo menos dois Esps32 em cantos diferentes para verificar melhor a distância e validar a precisão das coordenadas enviadas pelos Esps.
 <br><br>
 
