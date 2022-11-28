@@ -102,14 +102,19 @@ Por último [FIGURA 6], após validar se algum dos endereços que estava na list
 <br>
 <h2 id="#Testes">3.3. Testes</h2>
 <br>
-Na imagem abaixo é possível ver que o microcontrolador está buscando dispositivos compatives com BLE. Ele fará uma listagem de todos BLEs que conseguir encontrar durante a verificação.
-<br>
+Nessa etapa, foram realizados alguns testes a fim de comprovar o funcionamento do projeto proposto. Para tal, foram utilizados os equipamentos listados em <a id="Equipamentos">5.1 Equipamentos</a>. Além disso foi utilizado a Arduino IDE para formulação do código C/C++.
+<br><br>
+O primeiro objetivo pretendido, foi a listagem de dispositivos que suportem BLE próximos ao microcontrolador. Na imagem abaixo é possível observar que o microcontrolador está buscando dispositivos compatives com BLE. Ele fará uma listagem de todos BLEs que conseguir encontrar durante a verificação.
+<br> 
 
 ![teste1](https://user-images.githubusercontent.com/68467958/204180063-782a336d-f3f6-41d1-87ab-f4cb6aa00af7.png)[FIGURA 7]
 <br><br>
 
-Já na segunda imagem, é possivel ver que foi reconhecido dois aparelhos com os seguintes endereços bluetooth: "d4:55:bb:5b:16:a6" e "f0:a5:93:7c:ec:89". Esses endereços correspondem a dois celulares que estavam ligados próximos do esp32. Com isso, a leitura já está sendo realizada corretamente. 
+Tendo conseguido listar todos os dispositivos da região, foi necessário criar um filtro para verificar apenas equipamentos pré-cadastrados, estes, simulam os dispositivos dos alunos registrados no sistema. Através disso, é possível verificar se os alunos estão presentes em sala durante o horário escolar.
 <br><br>
+Na imagem a seguir, é possivel observar que foram reconhecidos dois aparelhos com os seguintes endereços bluetooth: "d4:55:bb:5b:16:a6" e "f0:a5:93:7c:ec:89". Esses endereços correspondem a dois celulares que estavam ligados próximos do esp32. Com isso, a leitura já está sendo realizada corretamente. 
+<br><br>
+
 ![Teste2](https://user-images.githubusercontent.com/68467958/204191370-608a5707-ec61-498e-9ba3-bf9125238b9c.png)[FIGURA 8]
 <br><br>
 
@@ -180,6 +185,13 @@ As perspectivas de trabalhos futuros incluem criar uma interface gráfica para m
         <td><img src="https://cdn.discordapp.com/attachments/1036750972598374460/1045879647801462878/unknown.png" alt="Jumpers" />
         </td>
         <td>Os Jumpers são pequenos fios condutores que podem ser conectados a uma protoboard para interligar dois pontos do circuito em projetos eletrônicos, geralmente utilizados em conexões com Arduino, Raspberry Pi, entre outros.
+        </td>
+    </tr>
+    <tr>
+        <td>Dispositivo com suporte ao BLE</td>
+        <td><img src="https://cdn.discordapp.com/attachments/671467728330162193/1046783505566281788/128bd6a8-30ba-4519-adb4-30bb0dd0538b.f5285458e9fcb681e0cf8dcff8151b4a.webp" alt="Smart Watch" />
+        </td>
+        <td>É necessário utilizar um dispositivo que suporte BLE para que este seja cadastrado e possa ser listado pela aplicação do ESP32.
         </td>
     </tr>
 </table>
